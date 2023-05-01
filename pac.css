@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+#header {
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 571px;
+}
+
+#lives {
+}
+
+#maze {
+    width: 100%;
+    text-align: center;
+}
+
+#area {
+    margin-right: 50px;
+}
+
+.score {
+    display: none;
+    fill: white;
+}
+
+.path {
+    fill: blue;
+}
+
+.dot {
+    stroke: white;
+}
+
+#score {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+#pac2 {
+    display: none;
+}
+
+#cherry {
+    display: none;
+}
+
+#ready {
+    fill: yellow;
+}
